@@ -9,6 +9,10 @@ section {
   background-color: rgb(39, 41, 68);
   font-family: sans-serif;
 }
+img {
+  width: 250px;
+  height: auto;
+}
 
 .score {
   color: rgb(224, 224, 224);
@@ -18,7 +22,7 @@ section {
   align-items: center;
 }
 .score h2 {
-  font-size: 30px;
+  font-size: 1.8em;
 }
 .score p {
   text-align: center;
@@ -37,16 +41,16 @@ section {
 }
 
 .intro h1 {
-  font-size: 50px;
+  font-size: 1.8em;
 }
 .intro button,
 .match button {
-  width: 150px;
-  height: 50px;
+  width: 100px;
+  height: 40px;
   background: none;
   border: none;
   color: rgb(224, 224, 224);
-  font-size: 20px;
+  font-size: 1.5em;
   background: rgb(45, 117, 96);
   border-radius: 3px;
   cursor: pointer;
@@ -62,7 +66,7 @@ section {
 .winner {
   color: rgb(224, 224, 224);
   text-align: center;
-  font-size: 50px;
+  font-size: 1.8em;
 }
 
 .hands,
@@ -70,6 +74,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 400px;
 }
 
 .player-hand {
